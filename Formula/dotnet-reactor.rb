@@ -1,9 +1,9 @@
 class DotnetReactor < Formula
   desc ".NET obfuscation and protection tool"
   homepage "https://www.eziriz.com/"
-  url "https://www.eziriz.com/download.php?download=dotnet_reactor_7_3_0_0_macos-x64.zip"
-  version "7.3.0.0"
-  sha256 "079d8c87b3ab6887215492dcab7fdd6529a21b63b8fcb9a0fd94079ccba3c87b"
+  url "https://www.eziriz.com/download.php?download=dotnet_reactor_7_5_0_0_macos-x64.zip"
+  version "7.5.0.0"
+  sha256 "12ce2e1a3fa761a24b21982a15a470947389081d48feb72e684f45e3523b13b0"
 
   def install
     libexec.install Dir["*"]
